@@ -11,6 +11,6 @@ class person
   end
 
   def valdate_name
-    @full_name = @corrector.correct_name(@full_name)
+    @full_name = @corrector.correct_name(full_name)
   end 
 end
