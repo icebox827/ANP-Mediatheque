@@ -1,6 +1,6 @@
 class Corrector
-  def correct_name(fullName) 
-    fullName.capitalize!
-    fullName[0, 30]
+  def correct_name(full_name) 
+    full_name.capitalize!
+    full_name[0, 30]
   end
 end
