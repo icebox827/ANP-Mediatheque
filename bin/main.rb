@@ -1,4 +1,4 @@
-require '../app'
+require '../lib/app'
 
 def main 
   app = App.new() 
